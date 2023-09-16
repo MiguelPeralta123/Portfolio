@@ -8,7 +8,10 @@ const AboutMe = () => {
                 <img className='about-me-image' src='miguel.png' alt='Miguel Peralta' />
                 <div className='about-me-detail'>
                     <h4 className='about-me-name'>Jesús Miguel Peralta Olivarría</h4>
-                    <p className='about-me-description'>Cupidatat proident duis veniam veniam ea quis aute consequat elit magna sunt sunt sunt. Enim dolor est proident dolore officia pariatur.</p>
+                    <div className='about-me-description'>
+                        <p>Independent and self-motivated student looking for a position in the software engineering department. Passionate in my career and willing to learn everyday.</p>
+                        <p>I specialize in frontend development.</p>
+                    </div>
                 </div>
             </div>
         </AboutMeContainer>
