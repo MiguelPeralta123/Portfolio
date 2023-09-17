@@ -5,7 +5,7 @@ import { projectsData } from '../data/projectsData';
 
 const Projects = () => {
     return (
-        <ProjectsContainer>
+        <ProjectsContainer id='projects'>
             <h2 className='projects-title'>Projects</h2>
             <div className='projects-cards'>
                 {
@@ -28,7 +28,8 @@ const Projects = () => {
 }
 
 const ProjectsContainer = styled.div`
-    padding: 2rem;
+    margin-top: -4rem;
+    padding: 8rem 2rem 0 2rem;
     color: #E0FEE0;
 
     .projects-title {

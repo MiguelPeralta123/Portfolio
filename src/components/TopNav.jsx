@@ -10,10 +10,11 @@ const TopNav = (props) => {
             <nav className={props.isScrolled ? 'scrolled' : 'not-scrolled'}>
                 <h3 className='topnav-title'>My Portfolio</h3>
                 <ul className='topnav-links'>
-                    <li className='topnav-link'>About Me</li>
-                    <li className='topnav-link'>Projects</li>
-                    <li className='topnav-link'>Certificates</li>
-                    <li className='topnav-link'>Contact</li>
+                    <a className='topnav-link' href='#about-me'>About Me</a>
+                    <a className='topnav-link' href='#projects'>Projects</a>
+                    <a className='topnav-link' href='#technologies'>Technologies</a>
+                    <a className='topnav-link' href='#certificates'>Certificates</a>
+                    <a className='topnav-link' href='#contact'>Contact</a>
                 </ul>
             </nav>
         </TopNavContainer>
@@ -40,7 +41,7 @@ const TopNavContainer = styled.div`
         align-items: center;
         justify-content: space-between;
         font-family: 'Montserrat', sans-serif;
-        color: white;
+        color: #E0FEE0;
         border-bottom: 2px solid white;
         transition: 0.2s ease-in-out;
         z-index: 101;
@@ -63,6 +64,8 @@ const TopNavContainer = styled.div`
             transition: 0.2s ease-in-out;
 
             .topnav-link {
+                color: #E0FEE0;
+                text-decoration: none;
                 cursor: pointer;
                 transition: 0.1s ease-in-out;
 

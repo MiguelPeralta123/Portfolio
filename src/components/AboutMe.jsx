@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const AboutMe = () => {
     return (
-        <AboutMeContainer>
+        <AboutMeContainer id='about-me'>
             <div className='about-me-content'>
                 <img className='about-me-image' src='images/miguel.png' alt='Miguel Peralta' />
                 <div className='about-me-detail'>
@@ -19,7 +19,7 @@ const AboutMe = () => {
 }
 
 const AboutMeContainer = styled.div`
-    padding: 12rem 2rem 2rem 2rem;
+    padding: 12rem 2rem 0 2rem;
     color: #E0FEE0;
 
     .about-me-content {

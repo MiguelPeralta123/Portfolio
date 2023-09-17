@@ -42,6 +42,6 @@ export const projectsData = [
         website_link: '',
         github_link: 'https://github.com/MiguelPeralta123/Proveedores_App.git',
         technologies: ['Kotlin', 'Android', 'JWT Authentication', 'HTTP Requests'],
-        description: 'Proveedores Kotlin app to register providers and materials. Application created for Ricofarms.',
+        description: 'Mobile Kotlin app to register requests for suppliers, customers and materials. Application created for Ricofarms.',
     },
 ]
