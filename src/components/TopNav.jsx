@@ -12,8 +12,8 @@ const TopNav = (props) => {
                 <ul className='topnav-links'>
                     <a className='topnav-link' href='#about-me'>About Me</a>
                     <a className='topnav-link' href='#projects'>Projects</a>
-                    <a className='topnav-link' href='#technologies'>Technologies</a>
                     <a className='topnav-link' href='#certificates'>Certificates</a>
+                    <a className='topnav-link' href='#technologies'>Technologies</a>
                     <a className='topnav-link' href='#contact'>Contact</a>
                 </ul>
             </nav>

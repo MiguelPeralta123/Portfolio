@@ -43,20 +43,32 @@ const Technologies = () => {
                     <p className='technology-name'>Kotlin</p>
                 </li>
                 <li className='technology'>
+                    <img className='technology-image' src='images/technologies/node.png' alt='Node' />
+                    <p className='technology-name'>Node</p>
+                </li>
+                <li className='technology'>
+                    <img className='technology-image' src='images/technologies/express.png' alt='Express' />
+                    <p className='technology-name'>Express</p>
+                </li>
+                <li className='technology'>
                     <img className='technology-image' src='images/technologies/docker.png' alt='Docker' />
                     <p className='technology-name'>Docker</p>
                 </li>
                 <li className='technology'>
                     <img className='technology-image' src='images/technologies/sql-server.png' alt='SQLServer' />
-                    <p className='technology-name'>SQL Server</p>
+                    <p className='technology-name'>SQLServer</p>
                 </li>
                 <li className='technology'>
-                    <img className='technology-image' src='images/technologies/my-sql.png' alt='My SQL' />
-                    <p className='technology-name'>My SQL</p>
+                    <img className='technology-image' src='images/technologies/my-sql.png' alt='MySQL' />
+                    <p className='technology-name'>MySQL</p>
                 </li>
                 <li className='technology'>
                     <img className='technology-image' src='images/technologies/firebase.png' alt='Firebase' />
                     <p className='technology-name'>Firebase</p>
+                </li>
+                <li className='technology'>
+                    <img className='technology-image' src='images/technologies/git.png' alt='Git' />
+                    <p className='technology-name'>Git</p>
                 </li>
                 <li className='technology'>
                     <img className='technology-image' src='images/technologies/bootstrap.png' alt='Bootstrap' />
