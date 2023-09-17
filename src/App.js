@@ -1,18 +1,9 @@
-import './App.css';
-import AboutMe from './components/AboutMe';
-import BackgroundImage from './components/BackgroundImage';
-import TopNav from './components/TopNav';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
     <div className="App">
-      <BackgroundImage />
-      <div className='container'>
-        <TopNav />
-        <div className='portfolio-content'>
-          <AboutMe />
-        </div>
-      </div>
+      <Portfolio />
     </div>
   );
 }

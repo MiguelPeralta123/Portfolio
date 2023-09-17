@@ -5,7 +5,7 @@ const AboutMe = () => {
     return (
         <AboutMeContainer>
             <div className='about-me-content'>
-                <img className='about-me-image' src='miguel.png' alt='Miguel Peralta' />
+                <img className='about-me-image' src='images/miguel.png' alt='Miguel Peralta' />
                 <div className='about-me-detail'>
                     <h4 className='about-me-name'>Jesús Miguel Peralta Olivarría</h4>
                     <div className='about-me-description'>
@@ -19,7 +19,7 @@ const AboutMe = () => {
 }
 
 const AboutMeContainer = styled.div`
-    margin-top: 8rem;
+    padding: 12rem 2rem 2rem 2rem;
     color: #E0FEE0;
 
     .about-me-content {
@@ -27,7 +27,6 @@ const AboutMeContainer = styled.div`
         align-items: center;
         justify-content: space-between;
         gap: 3rem;
-        padding: 0 2rem;
         
         .about-me-image {
             width: 15rem;
@@ -44,10 +43,8 @@ const AboutMeContainer = styled.div`
                 font-size: 1.5rem;
             }
         }
-    }
 
-    @media screen and (max-width: 768px) {
-        .about-me-content {
+        @media screen and (max-width: 768px) {
             flex-direction: column;
         }
     }

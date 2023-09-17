@@ -8,7 +8,7 @@ const BackgroundImage = () => {
 }
 
 const BackgroundContainer = styled.div`
-    background-image: url('background.jpg');
+    background-image: url('images/background.jpg');
     width: 100vw;
     height: 100vh;
     position: fixed;
