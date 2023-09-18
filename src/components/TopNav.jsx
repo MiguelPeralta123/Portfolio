@@ -63,6 +63,14 @@ const TopNavContainer = styled.div`
             list-style-type: none;
             transition: 0.2s ease-in-out;
 
+            @media screen and (max-width: 768px) {
+                margin-right: 2rem;
+            }
+
+            @media screen and (max-width: 640px) {
+                display: none;
+            }
+
             .topnav-link {
                 color: #E0FEE0;
                 text-decoration: none;
@@ -72,10 +80,6 @@ const TopNavContainer = styled.div`
                 &:hover {
                     scale: 1.1;
                 }
-            }
-
-            @media screen and (max-width: 768px) {
-                margin-right: 2rem;
             }
         }
     }
