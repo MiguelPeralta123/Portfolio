@@ -45,8 +45,8 @@ const Contact = () => {
 }
 
 const ContactContainer = styled.div`
-    margin: -4rem 0 4rem 0;
-    padding: 8rem 2rem 0 2rem;
+    margin-top: -4rem;
+    padding: 8rem 2rem 4rem 2rem;
     color: #E0FEE0;
 
     .contact-title {

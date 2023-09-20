@@ -52,9 +52,9 @@ const CertificateCardContainer = styled.div`
     }
 
     .certificate-card-image {
-        max-width: 20rem;
+        width: 15rem;
         max-height: 10rem;
-        object-fit: contain;
+        object-fit: cover;
         border-radius: 1rem 0 0 1rem;
         transition: 0.3s ease-in-out;
 
