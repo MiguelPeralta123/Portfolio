@@ -5,7 +5,9 @@ import BackgroundImage from './BackgroundImage';
 import TopNav from './TopNav';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
+import Certificates from './Certificates';
 import Technologies from './Technologies';
+import Contact from './Contact';
 
 const Portfolio = () => {
 
@@ -24,7 +26,9 @@ const Portfolio = () => {
                 <div className='portfolio-content'>
                     <AboutMe />
                     <Projects />
+                    <Certificates />
                     <Technologies />
+                    <Contact />
                 </div>
             </div>
         </PortfolioContainer>
