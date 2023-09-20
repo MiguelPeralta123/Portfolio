@@ -59,7 +59,6 @@ const CertificateCardContainer = styled.div`
         transition: 0.3s ease-in-out;
 
         @media screen and (max-width: 480px) {
-            max-width: fit-content;
             width: 100%;
             object-fit: cover;
             border-radius: 1rem 1rem 0 0;
