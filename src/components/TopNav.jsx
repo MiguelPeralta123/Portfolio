@@ -46,6 +46,10 @@ const TopNavContainer = styled.div`
         transition: 0.2s ease-in-out;
         z-index: 101;
 
+        @media screen and (max-width: 768px) {
+            gap: 1rem;
+        }
+
         .topnav-title {
             margin-left: 5rem;
             font-size: 1.5rem;
@@ -65,6 +69,7 @@ const TopNavContainer = styled.div`
 
             @media screen and (max-width: 768px) {
                 margin-right: 2rem;
+                gap: 1rem;
             }
 
             @media screen and (max-width: 640px) {

@@ -35,6 +35,7 @@ const CertificateCard = (props) => {
 const CertificateCardContainer = styled.div`
     display: flex;
     align-items: center;
+    min-width: 9rem;
     border: 2px solid #E0FEE0;
     border-radius: 1rem;
     background-color: rgba(0, 128, 128, 0.4);
