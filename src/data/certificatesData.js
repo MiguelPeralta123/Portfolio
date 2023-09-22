@@ -29,7 +29,7 @@ export const certificatesData = [
     {
         id: 4,
         title: 'Postman API Fundamentals',
-        image: 'images/certificates/api.png',
+        image: 'images/certificates/api-fundamentals.png',
         platform: 'Postman',
         duration: 'Not Specified',
         date: 'June 10, 2023',

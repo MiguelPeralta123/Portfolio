@@ -13,6 +13,7 @@ const TopNav = (props) => {
                     <a className='topnav-link' href='#about-me'>About Me</a>
                     <a className='topnav-link' href='#projects'>Projects</a>
                     <a className='topnav-link' href='#certificates'>Certificates</a>
+                    <a className='topnav-link' href='#extracurricular'>Extracurricular</a>
                     <a className='topnav-link' href='#technologies'>Technologies</a>
                     <a className='topnav-link' href='#contact'>Contact</a>
                 </ul>
@@ -55,7 +56,7 @@ const TopNavContainer = styled.div`
             font-size: 1.5rem;
             transition: 0.2s ease-in-out;
 
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 960px) {
                 margin-left: 2rem;
             }
         }
@@ -67,12 +68,12 @@ const TopNavContainer = styled.div`
             list-style-type: none;
             transition: 0.2s ease-in-out;
 
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 960px) {
                 margin-right: 2rem;
                 gap: 1rem;
             }
 
-            @media screen and (max-width: 640px) {
+            @media screen and (max-width: 768px) {
                 display: none;
             }
 
