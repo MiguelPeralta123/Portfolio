@@ -15,7 +15,7 @@ const TopNav = (props) => {
                     <a className='topnav-link' href='#certificates'>Certificates</a>
                     <a className='topnav-link' href='#extracurricular'>Extracurricular</a>
                     <a className='topnav-link' href='#technologies'>Technologies</a>
-                    <a className='topnav-link' href='#contact'>Contact</a>
+                    {/*<a className='topnav-link' href='#contact'>Contact</a>*/}
                 </ul>
             </nav>
         </TopNavContainer>
@@ -56,19 +56,19 @@ const TopNavContainer = styled.div`
             font-size: 1.5rem;
             transition: 0.2s ease-in-out;
 
-            @media screen and (max-width: 960px) {
+            @media screen and (max-width: 900px) {
                 margin-left: 2rem;
             }
         }
 
         .topnav-links {
             display: flex;
-            gap: 1.5rem;
+            gap: 1.2rem;
             margin-right: 5rem;
             list-style-type: none;
             transition: 0.2s ease-in-out;
 
-            @media screen and (max-width: 960px) {
+            @media screen and (max-width: 900px) {
                 margin-right: 2rem;
                 gap: 1rem;
             }
@@ -78,6 +78,7 @@ const TopNavContainer = styled.div`
             }
 
             .topnav-link {
+                font-size: 0.9rem;
                 color: #E0FEE0;
                 text-decoration: none;
                 cursor: pointer;

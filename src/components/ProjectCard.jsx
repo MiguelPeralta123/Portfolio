@@ -42,9 +42,9 @@ const ProjectCard = (props) => {
                             
                             <ul className='project-card-technologies'>
                                 {
-                                    props.technologies.map(technology => {
+                                    props.technologies.map((technology, index) => {
                                         return (
-                                            <li className='project-card-technology'>{technology}</li>
+                                            <li key={index} className='project-card-technology'>{technology}</li>
                                         )
                                     })
                                 }

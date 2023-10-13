@@ -30,7 +30,7 @@ const Portfolio = () => {
                     <Certificates />
                     <Extracurricular />
                     <Technologies />
-                    <Contact />
+                    {/*<Contact />*/}
                 </div>
             </div>
         </PortfolioContainer>

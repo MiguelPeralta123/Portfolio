@@ -89,6 +89,7 @@ const Technologies = () => {
 
 const TechnologiesContainer = styled.div`
     margin-top: -4rem;
+    margin-bottom: 5rem;
     padding: 8rem 2rem 0 2rem;
     color: #E0FEE0;
 
