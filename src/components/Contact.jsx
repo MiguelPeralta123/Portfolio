@@ -57,8 +57,8 @@ const ContactContainer = styled.div`
 
     .contact-labels-and-form {
         display: flex;
-        align-items: center;
-        gap: 2rem;
+        align-items: top;
+        gap: 4rem;
 
         @media screen and (max-width: 640px) {
             flex-direction: column;
@@ -80,6 +80,7 @@ const ContactContainer = styled.div`
 
                 .contact-label-text {
                     margin: 0;
+                    font-weight: bold;
                 }
             }
         }
@@ -88,12 +89,13 @@ const ContactContainer = styled.div`
             width: 100%;
             display: flex;
             flex-direction: column;
-            gap: 0.2rem;
+            gap: 0.5rem;
 
             .contact-label {
                 display: block;
                 margin-top: 0.5rem;
                 font-size: 1rem;
+                font-weight: bold;
             }
 
             .contact-email {
