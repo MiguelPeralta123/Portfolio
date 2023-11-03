@@ -8,7 +8,7 @@ import Projects from './Projects';
 import Certificates from './Certificates';
 import Extracurricular from './Extracurricular';
 import Technologies from './Technologies';
-import Contact from './Contact';
+//import Contact from './Contact';
 
 const Portfolio = () => {
 
