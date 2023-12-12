@@ -55,11 +55,11 @@ export const projectsData = [
     },
     {
         id: 7,
-        title: 'Altas Ricofarms App',
-        image: 'images/projects/altas-ricofarms-app.png',
+        title: 'To Do App',
+        image: 'images/projects/to-do-app.jpeg',
         website_link: '',
-        github_link: 'https://github.com/MiguelPeralta123/Proveedores_App.git',
-        technologies: ['Kotlin', 'Android', 'JWT Authentication', 'HTTP Requests'],
-        description: 'Mobile Kotlin app to register requests for suppliers, customers and materials. Application created for Ricofarms.',
+        github_link: 'https://github.com/MiguelPeralta123/To_Do_App.git',
+        technologies: ['React Native', 'Expo', 'Redux', 'Navigation'],
+        description: 'React Native application created with Expo. Save tasks, attach a photo and set reminders.',
     },
 ]
