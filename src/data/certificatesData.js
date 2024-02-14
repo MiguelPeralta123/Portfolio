@@ -1,6 +1,15 @@
 export const certificatesData = [
     {
         id: 1,
+        title: 'PHP Tutorial Beginner to Advanced',
+        image: 'images/certificates/php-beginner-to-advanced.jpg',
+        platform: 'Udemy',
+        duration: '10.5 hours',
+        date: 'February 10, 2024',
+        credential_link: 'https://www.udemy.com/certificate/UC-84afd2a3-5731-4bc7-a594-f6a5bd118925/',
+    },
+    {
+        id: 2,
         title: 'React Native Course',
         image: 'images/certificates/react-native-course.jpg',
         platform: 'Udemy',
@@ -9,7 +18,7 @@ export const certificatesData = [
         credential_link: 'https://www.udemy.com/certificate/UC-3eb8f294-d6cb-412a-aa2c-4ea10b69b4ca/',
     },
     {
-        id: 2,
+        id: 3,
         title: 'React Js Frontend',
         image: 'images/certificates/react-js-frontend.jpg',
         platform: 'Udemy',
@@ -18,7 +27,7 @@ export const certificatesData = [
         credential_link: 'https://www.udemy.com/certificate/UC-bc36aa6f-bd3a-42a8-a179-3a7af51d86a8/',
     },
     {
-        id: 3,
+        id: 4,
         title: 'Kotlin App Developer',
         image: 'images/certificates/kotlin-app-developer.jpg',
         platform: 'Udemy',
@@ -27,7 +36,7 @@ export const certificatesData = [
         credential_link: 'https://www.udemy.com/certificate/UC-bd90a36c-8b7b-4f38-9f96-f01294e97c98/',
     },
     {
-        id: 4,
+        id: 5,
         title: 'Postman API Fundamentals',
         image: 'images/certificates/api-fundamentals.png',
         platform: 'Postman',
@@ -36,7 +45,7 @@ export const certificatesData = [
         credential_link: 'https://api.badgr.io/public/assertions/BITX2DudTzmLDDcI5ipGyg?identity__email=maikperalta248%40gmail.com',
     },
     {
-        id: 5,
+        id: 6,
         title: 'Tester',
         image: 'images/certificates/tester.png',
         platform: 'Capacitate para el empleo',

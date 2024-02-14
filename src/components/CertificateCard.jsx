@@ -13,6 +13,7 @@ const CertificateCard = (props) => {
 
                 <div className='certificate-card-platform-and-duration'>
                     <p className='certificate-card-platform'>{props.platform}</p>
+                    <p className='certificate-card-platform'>|</p>
                     <p className='certificate-card-duration'>{props.duration}</p>
                 </div>
 
@@ -80,7 +81,7 @@ const CertificateCardContainer = styled.div`
         .certificate-card-platform-and-duration {
             display: flex;
             align-items: center;
-            gap: 1rem;
+            gap: 0.5rem;
 
             .certificate-card-platform {
                 margin: 0;
@@ -104,6 +105,7 @@ const CertificateCardContainer = styled.div`
 
             .certificate-card-link-url {
                 text-decoration: none;
+                font-weight: bold;
                 color: #E0FEE0;
                 cursor: pointer;
             }

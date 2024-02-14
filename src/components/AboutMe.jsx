@@ -10,8 +10,8 @@ const AboutMe = () => {
                 <div className='about-me-detail'>
                     <h4 className='about-me-name'>Jesús Miguel Peralta Olivarría</h4>
                     <div className='about-me-description'>
-                        <p>Independent and self-motivated student looking for a position in the software engineering department. Passionate in my career and willing to learn everyday.</p>
-                        <p>I specialize in frontend development.</p>
+                        <p>Independent and self-motivated professional looking for a position in the software engineering department. Passionate in my career and willing to learn everyday.</p>
+                        <p>I specialize in web development.</p>
                     </div>
                     <div className='cv-and-contact'>
                         <a className='button-download-cv'
