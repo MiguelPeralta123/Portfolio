@@ -24,11 +24,17 @@ const ProjectCard = (props) => {
 
                             <div className='project-card-link'>
                                 <Link fontSize="small" />
-                                <a className='project-card-link-url' 
-                                    href={props.website_link ? props.website_link : '#'}
-                                    target='blank'>
-                                    {props.website_link ? 'Visit Website' : 'Not Hosted Yet'} 
-                                </a>
+                                {
+                                    props.website_link ?
+                                    (<a className='project-card-link-url' 
+                                        href={props.website_link}
+                                        target='blank'
+                                    >
+                                        Visit Website
+                                    </a>)
+                                    :
+                                    (<p style={{ margin: 0 }}>Not hosted yet</p>)
+                                }
                             </div>
 
                             <div className='project-card-link'>
