@@ -2,7 +2,7 @@ export const projectsData = [
     {
         id: 1,
         title: 'Altas Ricofarms',
-        image: 'images/projects/altas-ricofarms.png',
+        image: 'images/projects/altas-ricofarms.webp',
         website_link: 'http://23.19.74.40:8001/',
         github_link: 'https://github.com/MiguelPeralta123/Proveedores_Django.git',
         technologies: ['Django', 'Bootstrap', 'jQuery', 'SQLite', 'Docker'],
@@ -11,7 +11,7 @@ export const projectsData = [
     {
         id: 2,
         title: 'Employees Management System',
-        image: 'images/projects/employees-management-system.png',
+        image: 'images/projects/employees-management-system.webp',
         website_link: '',
         github_link: 'https://github.com/MiguelPeralta123/Laravel_Employees.git',
         technologies: ['PHP', 'Laravel', 'Bootstrap', 'MySQL'],
@@ -20,7 +20,7 @@ export const projectsData = [
     {
         id: 3,
         title: 'To Do App',
-        image: 'images/projects/to-do-app.jpeg',
+        image: 'images/projects/to-do-app.webp',
         website_link: '',
         github_link: 'https://github.com/MiguelPeralta123/To_Do_App.git',
         technologies: ['React Native', 'Expo', 'Redux', 'Navigation'],
@@ -29,7 +29,7 @@ export const projectsData = [
     {
         id: 4,
         title: 'Admin Dashboard',
-        image: 'images/projects/admin-dashboard.png',
+        image: 'images/projects/admin-dashboard.webp',
         website_link: 'https://admindashboardproject.netlify.app',
         github_link: 'https://github.com/MiguelPeralta123/Admin_Dashboard.git',
         technologies: ['React', 'React Router', 'Material UI', 'CSS'],
@@ -38,7 +38,7 @@ export const projectsData = [
     {
         id: 5,
         title: 'Netlfix Clone',
-        image: 'images/projects/netflix-clone.png',
+        image: 'images/projects/netflix-clone.webp',
         website_link: 'https://netflixreactproject.netlify.app/',
         github_link: 'https://github.com/MiguelPeralta123/Netflix_Clone.git',
         technologies: ['React', 'Firebase', 'React Router', 'Styled Components'],
@@ -47,7 +47,7 @@ export const projectsData = [
     {
         id: 6,
         title: 'YumEats',
-        image: 'images/projects/yumeats.png',
+        image: 'images/projects/yumeats.webp',
         website_link: 'https://yumeat.netlify.app/',
         github_link: 'https://github.com/MiguelPeralta123/YumEats.git',
         technologies: ['React', 'Tailwind', 'React Splide'],
@@ -56,7 +56,7 @@ export const projectsData = [
     {
         id: 7,
         title: 'Coffee Blog',
-        image: 'images/projects/coffee-blog.png',
+        image: 'images/projects/coffee-blog.webp',
         website_link: 'https://coffeeblogwebsite.netlify.app/',
         github_link: 'https://github.com/MiguelPeralta123/coffee_blog.git',
         technologies: ['HTML', 'CSS'],
@@ -65,7 +65,7 @@ export const projectsData = [
     {
         id: 8,
         title: 'Frontend Store',
-        image: 'images/projects/frontend-store.png',
+        image: 'images/projects/frontend-store.webp',
         website_link: 'https://frontendstorewebpage.netlify.app/',
         github_link: 'https://github.com/MiguelPeralta123/frontend_store.git',
         technologies: ['HTML', 'CSS'],

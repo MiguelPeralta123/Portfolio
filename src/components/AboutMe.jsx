@@ -6,7 +6,7 @@ const AboutMe = () => {
     return (
         <AboutMeContainer id='about-me'>
             <div className='about-me-content'>
-                <img className='about-me-image' src='images/miguel.png' alt='Miguel Peralta' />
+                <img className='about-me-image' src='images/miguel.webp' alt='Miguel Peralta' />
                 <div className='about-me-detail'>
                     <h4 className='about-me-name'>Jesús Miguel Peralta Olivarría</h4>
                     <div className='about-me-description'>

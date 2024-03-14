@@ -7,79 +7,79 @@ const Technologies = () => {
             <h2 className='technologies-title'>Technologies</h2>
             <ul className='technologies'>
                 <li className='technology'>
-                    <img className='technology-image' src='images/technologies/html.png' alt='HTML' />
+                    <img className='technology-image' src='images/technologies/html.webp' alt='HTML' />
                     <p className='technology-name'>HTML</p>
                 </li>
                 <li className='technology'>
-                    <img className='technology-image' src='images/technologies/css.png' alt='CSS' />
+                    <img className='technology-image' src='images/technologies/css.webp' alt='CSS' />
                     <p className='technology-name'>CSS</p>
                 </li>
                 <li className='technology'>
-                    <img className='technology-image' src='images/technologies/javascript.png' alt='Javascript' />
+                    <img className='technology-image' src='images/technologies/javascript.webp' alt='Javascript' />
                     <p className='technology-name'>Javascript</p>
                 </li>
                 <li className='technology'>
-                    <img className='technology-image' src='images/technologies/react.png' alt='React' />
+                    <img className='technology-image' src='images/technologies/react.webp' alt='React' />
                     <p className='technology-name'>React</p>
                 </li>
                 <li className='technology'>
-                    <img className='technology-image' src='images/technologies/c-sharp.png' alt='C#' />
+                    <img className='technology-image' src='images/technologies/c-sharp.webp' alt='C#' />
                     <p className='technology-name'>C#</p>
                 </li>
                 <li className='technology'>
-                    <img className='technology-image' src='images/technologies/java.png' alt='Java' />
+                    <img className='technology-image' src='images/technologies/java.webp' alt='Java' />
                     <p className='technology-name'>Java</p>
                 </li>
                 <li className='technology'>
-                    <img className='technology-image' src='images/technologies/python.png' alt='Python' />
+                    <img className='technology-image' src='images/technologies/python.webp' alt='Python' />
                     <p className='technology-name'>Python</p>
                 </li>
                 <li className='technology'>
-                    <img className='technology-image' src='images/technologies/django.png' alt='Django' />
+                    <img className='technology-image' src='images/technologies/django.webp' alt='Django' />
                     <p className='technology-name'>Django</p>
                 </li>
                 <li className='technology'>
-                    <img className='technology-image' src='images/technologies/kotlin.png' alt='Kotlin' />
+                    <img className='technology-image' src='images/technologies/kotlin.webp' alt='Kotlin' />
                     <p className='technology-name'>Kotlin</p>
                 </li>
                 <li className='technology'>
-                    <img className='technology-image' src='images/technologies/node.png' alt='Node' />
+                    <img className='technology-image' src='images/technologies/node.webp' alt='Node' />
                     <p className='technology-name'>Node</p>
                 </li>
                 <li className='technology'>
-                    <img className='technology-image' src='images/technologies/express.png' alt='Express' />
+                    <img className='technology-image' src='images/technologies/express.webp' alt='Express' />
                     <p className='technology-name'>Express</p>
                 </li>
                 <li className='technology'>
-                    <img className='technology-image' src='images/technologies/docker.png' alt='Docker' />
+                    <img className='technology-image' src='images/technologies/docker.webp' alt='Docker' />
                     <p className='technology-name'>Docker</p>
                 </li>
                 <li className='technology'>
-                    <img className='technology-image' src='images/technologies/sql-server.png' alt='SQLServer' />
+                    <img className='technology-image' src='images/technologies/sql-server.webp' alt='SQLServer' />
                     <p className='technology-name'>SQLServer</p>
                 </li>
                 <li className='technology'>
-                    <img className='technology-image' src='images/technologies/my-sql.png' alt='MySQL' />
+                    <img className='technology-image' src='images/technologies/my-sql.webp' alt='MySQL' />
                     <p className='technology-name'>MySQL</p>
                 </li>
                 <li className='technology'>
-                    <img className='technology-image' src='images/technologies/firebase.png' alt='Firebase' />
+                    <img className='technology-image' src='images/technologies/firebase.webp' alt='Firebase' />
                     <p className='technology-name'>Firebase</p>
                 </li>
                 <li className='technology'>
-                    <img className='technology-image' src='images/technologies/git.png' alt='Git' />
+                    <img className='technology-image' src='images/technologies/git.webp' alt='Git' />
                     <p className='technology-name'>Git</p>
                 </li>
                 <li className='technology'>
-                    <img className='technology-image' src='images/technologies/bootstrap.png' alt='Bootstrap' />
+                    <img className='technology-image' src='images/technologies/bootstrap.webp' alt='Bootstrap' />
                     <p className='technology-name'>Bootstrap</p>
                 </li>
                 <li className='technology'>
-                    <img className='technology-image' src='images/technologies/tailwind.png' alt='Tailwind' />
+                    <img className='technology-image' src='images/technologies/tailwind.webp' alt='Tailwind' />
                     <p className='technology-name'>Tailwind</p>
                 </li>
                 <li className='technology'>
-                    <img className='technology-image' src='images/technologies/postman.png' alt='Postman' />
+                    <img className='technology-image' src='images/technologies/postman.webp' alt='Postman' />
                     <p className='technology-name'>Postman</p>
                 </li>
             </ul>

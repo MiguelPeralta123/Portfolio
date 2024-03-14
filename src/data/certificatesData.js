@@ -2,7 +2,7 @@ export const certificatesData = [
     {
         id: 1,
         title: 'PHP Tutorial Beginner to Advanced',
-        image: 'images/certificates/php-beginner-to-advanced.jpg',
+        image: 'images/certificates/php-beginner-to-advanced.webp',
         platform: 'Udemy',
         duration: '10.5 hours',
         date: 'February 10, 2024',
@@ -11,7 +11,7 @@ export const certificatesData = [
     {
         id: 2,
         title: 'React Native Course',
-        image: 'images/certificates/react-native-course.jpg',
+        image: 'images/certificates/react-native-course.webp',
         platform: 'Udemy',
         duration: '6.5 hours',
         date: 'November 18, 2023',
@@ -20,7 +20,7 @@ export const certificatesData = [
     {
         id: 3,
         title: 'React Js Frontend',
-        image: 'images/certificates/react-js-frontend.jpg',
+        image: 'images/certificates/react-js-frontend.webp',
         platform: 'Udemy',
         duration: '18.5 hours',
         date: 'September 09, 2023',
@@ -29,7 +29,7 @@ export const certificatesData = [
     {
         id: 4,
         title: 'Kotlin App Developer',
-        image: 'images/certificates/kotlin-app-developer.jpg',
+        image: 'images/certificates/kotlin-app-developer.webp',
         platform: 'Udemy',
         duration: '15.5 hours',
         date: 'July 17, 2023',
@@ -38,7 +38,7 @@ export const certificatesData = [
     {
         id: 5,
         title: 'Postman API Fundamentals',
-        image: 'images/certificates/api-fundamentals.png',
+        image: 'images/certificates/api-fundamentals.webp',
         platform: 'Postman',
         duration: 'Not Specified',
         date: 'June 10, 2023',
@@ -47,7 +47,7 @@ export const certificatesData = [
     {
         id: 6,
         title: 'Tester',
-        image: 'images/certificates/tester.png',
+        image: 'images/certificates/tester.webp',
         platform: 'Capacitate para el empleo',
         duration: '28 hours',
         date: 'March 10, 2023',
